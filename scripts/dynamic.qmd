@@ -1,6 +1,6 @@
 ---
 title: "Dynamic documents with Quarto"
-author: Taavi Päll
+author: Alexey Nesterovich
 date: 2023-11-29
 format: 
   revealjs:
