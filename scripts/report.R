@@ -27,9 +27,9 @@ penis
 #' Plotting penis size versus reporting @fig-pplot1.
 #+
 #| label: fig-pplot1
-#| fig-cap: "Self-reporting exaggerates penis size."
+#| fig-cap: "Self-reporting exaggerates penis circumference."
 penis %>% 
-  ggplot(aes(Method, length)) +
+  ggplot(aes(Method, circumf)) +
   geom_boxplot() +
   geom_point(position = "jitter") +
   labs(y = "Average penis length, cm")
